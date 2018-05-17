@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+
+ @font-face {
+	font-family:"STARWARS";
+src:url("STARWARS.eot?") 
+format("eot"),url("STARWARS.woff") format("woff"),
+
+url("STARWARS.ttf") format("truetype"),
+
+url("STARWARS.svg#STARWARS") format("svg");
+font-weight:normal;font-style:normal;
+}
+
+#titulo{
+	margin-top: 10px;
+	margin-bottom: 100px;
+}
+#titulos h1 {
+	margin-top: 10px;
+	font-family:"STARWARS";
+	color: white;
+	text-align: center;
+}
+table{
+	width: 85%;
+	top: 57%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	border-collapse: collapse;
+	left: 50%;
+}
+
+
+
+table td, table th {
+	text-align: center;
+	border: 2px solid;
+	border-color: #000;
+}
+
+table th {
+	background-color: #494d4e;
+	color: white;
+}

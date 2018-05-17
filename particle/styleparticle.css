@@ -1,0 +1,53 @@
+
+
+html,body{margin:0;padding:0;border:0;outline:0;}
+
+
+/* ---- base ---- */
+
+html,body{ 
+	width:100%;
+	height:100%;
+}
+
+
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+
+/* ---- stats.js ---- */
+
+
+
+.js-count-particles{
+  font-size: 1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{ 
+  position:fixed; 
+  width: 100%; 
+  height: 100%; 
+background-image: url("http://college.canon.com.br/static/img/tip/cfdb0cf1-d1bd-403e-b018-6223a1bc5d4a.jpg");
+ }
